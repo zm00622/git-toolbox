@@ -51,3 +51,9 @@ git remote -v
 **Git Remove Remote**
 
 git remote rm origin
+
+# Helpful Articles 
+
+**How to Undue Anything with Git**
+
+https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
