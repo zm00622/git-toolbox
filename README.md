@@ -52,8 +52,18 @@ git remote -v
 
 git remote rm origin
 
-# Helpful Articles 
+# Helpful Resources 
 
 **How to Undue Anything with Git**
 
 https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
+
+**SmartGit**
+
+https://www.syntevo.com/smartgit/
+
+**Game**
+
+This is an interactive git game played in the terminal. It goes beyond the basics and introduces features like cherry-pick, etc.
+
+https://github.com/git-game/git-game-v2
