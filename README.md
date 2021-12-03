@@ -38,6 +38,35 @@ git checkout branch_name
 
 git push -u origin branch_name
 
+**Starting on a new branch with a team**
+
+First, see which branch you are on.
+
+git remote -v 
+
+Next, create or checkout the new branch (you checkout if the branch already exists. In the example below, Email-Notifications-1 is the new branch name that has already been created in our remote.)
+
+git checkout Email-Notifications-1
+
+Next, make sure your local matches your remote by pulling the remote changes
+
+git fetch
+
+Next, git checkout Email-Notifications-1 again and make sure your terminal has switched to that branch. Your terminal should then say something along the lines of:
+
+Branch 'Email-Notifications-1' set up to track remote branch 'Email-Notifications-1' from 'origin'.
+Switched to a new branch 'Email-Notifications-1'
+
+Next,
+
+git add .
+
+Next, 
+
+git commit -m""
+
+Next, git push -u origin Email-Notification-1
+
 **Cloning a Repo**
 
 https://blogs.sap.com/2019/07/12/how-to-clone-a-github-repository-to-local-mac-computer/
