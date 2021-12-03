@@ -2,6 +2,8 @@
 
 ### This toolbox contains Zarys common git commands
 
+<img src="https://github.com/zm00622/git-toolbox/blob/main/Git-Explained.png?raw=true">
+
 ## Common Git Commands
 
 **Push React App to Master (in Angular you do not have to initialize with git init) ** 
