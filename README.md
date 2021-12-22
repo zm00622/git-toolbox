@@ -83,6 +83,10 @@ git remote -v
 
 git remote rm origin
 
+**Revert Changes**
+
+git revert vs git reset; Reset removes the commit while revert removes the changes but leaves the commit; Revert is safer considering we can revert a revert.
+
 # Helpful Resources 
 
 **How to Undue Anything with Git**
