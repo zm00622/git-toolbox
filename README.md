@@ -87,6 +87,10 @@ git remote rm origin
 
 git revert vs git reset; Reset removes the commit while revert removes the changes but leaves the commit; Revert is safer considering we can revert a revert.
 
+**Force Git Pull to Overwrite Local**
+
+https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
+
 # Helpful Resources 
 
 **How to Undue Anything with Git**
@@ -102,3 +106,5 @@ https://www.syntevo.com/smartgit/
 This is an interactive git game played in the terminal. It goes beyond the basics and introduces features like cherry-pick, etc.
 
 https://github.com/git-game/git-game-v2
+
+
