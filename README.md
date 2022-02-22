@@ -6,7 +6,7 @@
 
 ## Common Git Commands
 
-**Push React App to Master (in Angular you do not have to initialize with git init) ** 
+# Push React App to Master (in Angular you do not have to initialize with git init)
 
 git init
 
@@ -18,7 +18,7 @@ git remote add origin "https://. "
 
 git push -u origin master
 
-**If having problems with the above commands**
+# If having problems with the above commands
 
 git add .
 
@@ -26,19 +26,19 @@ git commit
 
 git push
 
-**Create a New Branch**
+# Create a New Branch
 
 git checkout -b branch_name
 
-**Switch to a new branch**
+# Switch to a new branch
 
 git checkout branch_name
 
-**Push your branch to the remote repository**
+# Push your branch to the remote repository
 
 git push -u origin branch_name
 
-**Starting on a new branch with a team**
+# Starting on a new branch with a team
 
 First, see which branch you are on.
 
@@ -67,7 +67,7 @@ git commit -m""
 
 Next, git push -u origin Email-Notification-1
 
-**Cloning a Repo**
+# Cloning a Repo
 
 https://blogs.sap.com/2019/07/12/how-to-clone-a-github-repository-to-local-mac-computer/
 
@@ -75,36 +75,40 @@ After cloning a repo, you may have to rename the remote origin stored in git:
 
 git remote set-url origin "https://etc. etc."
 
-**Git Remote Name**
+# Git Remote Name
 
 git remote -v
 
-**Git Remove Remote**
+# Git Remove Remote
 
 git remote rm origin
 
-**Revert Changes**
+# Revert Changes
 
 git revert vs git reset; Reset removes the commit while revert removes the changes but leaves the commit; Revert is safer considering we can revert a revert.
 
-**Force Git Pull to Overwrite Local**
+# Force Git Pull to Overwrite Local
 
 https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
 
-**Get a list of remote branches**
+# Get a list of remote branches
 
 git branch -r
 
-**Get a list of local branches**
+# Get a list of local branches
 
 git branch
 
-**Current Workflow at my Current Company**
+# Current Workflow at my Current Company
 
 1.) We create our own branch and work on our tasks there (branch names are normally named after the Jira issue)
+
 2.) We then test locally
+
 3.) Pull from stage to sync file changes with others
+
 4.) Fix merge conflict if a merge conflict exists
+
 5.) Push to stage (it will then trigger the push to live functionality)
 
 # Cherry Pick
