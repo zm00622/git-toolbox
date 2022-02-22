@@ -99,6 +99,16 @@ git branch -r
 
 git branch
 
+# Cherry Pick
+
+git cherry‑pick 
+
+A powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another.
+
+# List staged and unstagged changes
+
+git status
+
 # Current Workflow at my Current Company
 
 1.) We create our own branch and work on our tasks there (branch names are normally named after the Jira issue)
@@ -110,16 +120,6 @@ git branch
 4.) Fix merge conflict if a merge conflict exists
 
 5.) Push to stage (it will then trigger the push to live functionality)
-
-# Cherry Pick
-
-git cherry‑pick 
-
-A powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another.
-
-# List staged and unstagged changes
-
-git status
 
 # Helpful Resources 
 
