@@ -91,6 +91,10 @@ git revert vs git reset; Reset removes the commit while revert removes the chang
 
 https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
 
+git fetch --all
+
+git reset --hard origin/branch_name
+
 # Get a list of remote branches
 
 git branch -r
