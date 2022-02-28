@@ -125,6 +125,24 @@ git status
 
 5.) Push to stage (it will then trigger the push to live functionality)
 
+# How To Reduce Merge Conflicts
+
+Every day, before you start coding, you need to catch up with the staging branch. One way to do this is by saving the files you have changed in your local repository in a seperate folder. Then, force overwrite your local with the remote repository.
+
+1.) cd into / checkout the development branch
+
+2.) git branch (to make sure you are on the stage branch)
+
+2.) git fetch --all
+
+3.) git reset --hard origin/development_branch
+
+
+This will bring your local up to date with any current changes in the repo. This set of commands is going to overwrite your local with the remote repo on GitLab. Thus, this is why you should make sure the files you have changed are saved in a separate repo or folder before you perform the overwrite.
+
+To implement changes from the prior day, go to the file where you saved those changes, and compare the differences with the now current repo.
+
+
 # Helpful Resources 
 
 **How to Undue Anything with Git**
