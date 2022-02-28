@@ -133,7 +133,7 @@ git status
 
 3.) code . (Open new branch in VS Code. Make changes etc.)
 
-4.) Check remote repo to make sure no changes have been made since your changes. If there have been, run git pull to sync changes. Resolve any conflicts. Once changes from other team members have been considered, you are ready to proceed with pushing your changes to the remote repo.
+4.) Once your changes are complete, check remote repo to make sure no changes have been made since your changes. If there have been, run git pull to sync changes. Resolve any conflicts. Once changes from other team members have been considered, you are ready to proceed with pushing your changes to the remote repo.
 
 5.) git status (Grab the file paths you have changed)
 
