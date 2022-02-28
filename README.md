@@ -125,6 +125,24 @@ git status
 
 5.) Push to stage (it will then trigger the push to live functionality)
 
+# Company Workflow (In More Detail)
+
+1.) git checkout -b RVCB-981 (Create the new branch named after Jira issue)
+
+2.) git branch (Make sure you are on the correct branch)
+
+3.) code . (Open new branch in VS Code. Make changes etc.)
+
+4.) Check remote repo to make sure no changes have been made since your changes. If there have been, run git pull to sync changes. Resolve any conflicts. Once changes from other team members have been considered, you are ready to proceed with pushing your changes to the remote repo.
+
+5.) git status (Grab the file paths you have changed)
+
+6.) git add paste-filepath-here
+
+7.) git commit -m "Commit message here"
+
+8.) git push -u origin RVCB-981
+
 # How To Reduce Merge Conflicts
 
 Every day, before you start coding, you need to catch up with the staging branch. One way to do this is by saving the files you have changed in your local repository in a seperate folder. Then, force overwrite your local with the remote repository.
