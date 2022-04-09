@@ -6,6 +6,10 @@
 
 ## Common Git Commands
 
+# Navigate back to home directory
+
+cd ~
+
 # Push React App to Master (in Angular you do not have to initialize with git init)
 
 git init
