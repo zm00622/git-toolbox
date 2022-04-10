@@ -182,3 +182,12 @@ This is an interactive git game played in the terminal. It goes beyond the basic
 https://github.com/git-game/git-game-v2
 
 
+# Aliases
+
+alias staging="open -a 'Firefox' https://start.atlassian.com/"
+
+alias live="open -a 'Firefox' https://start.atlassian.com/"
+
+alias p="cd Desktop/p"
+
+alias m="cd Desktop/p/m"
