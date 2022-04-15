@@ -164,9 +164,7 @@ This will bring your local up to date with any current changes in the repo. This
 
 To implement changes from the prior day, go to the file where you saved those changes, and compare the differences with the now current repo.
 
-# Alternatively, the more traditional way to reduce merge conflicts is as follows
-
-# In GitLab or Github, you receive something along the lines of: This branch is "n" commits behind master
+# Alternatively, the more traditional way to reduce merge conflicts is as follows. In GitLab or Github, you receive something along the lines of: This branch is "n" commits behind master
 
 1)git checkout master
 
