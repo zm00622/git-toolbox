@@ -176,6 +176,8 @@ To implement changes from the prior day, go to the file where you saved those ch
 
 5)git push origin branchBehindCommit
 
+Essentially, here, you are just merging the master branch into your branch (if there are no conflicts, then your current branch will also updated with master branch commits.)
+
 # Helpful Resources 
 
 **How to Undue Anything with Git**
