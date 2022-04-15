@@ -169,9 +169,13 @@ To implement changes from the prior day, go to the file where you saved those ch
 # In GitLab or Github, you receive something along the lines of: This branch is "n" commits behind master
 
 1)git checkout master
+
 2)git pull origin master
+
 3)git checkout BranchNameBehindCommit(your branch)
+
 4)git merge master // Now your branch is in sync with local Master branch
+
 5)git push origin branchBehindCommit
 
 # Helpful Resources 
