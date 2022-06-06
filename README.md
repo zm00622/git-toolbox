@@ -165,6 +165,8 @@ git fetch --all
 
 git reset --hard origin/branch_name
 
+(Where branch_name is the name of the branch you want to catch up with. So if you want your_branch to get caught up with staging, then you switch to your_branch and type git reset --hard origin/staging)
+
 # Get a list of remote branches
 
 git branch -r
