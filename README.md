@@ -1,5 +1,11 @@
 # git-toolbox
 
+### Explain Shell
+
+https://explainshell.com/explain?cmd=touch
+
+
+
 ### This toolbox contains Zarys common git commands
 
 <img src="https://github.com/zm00622/git-toolbox/blob/main/Git-Explained.png?raw=true">
